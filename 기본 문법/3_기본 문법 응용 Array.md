@@ -130,25 +130,25 @@ for (int i=0; i<5; i++ ){
 
 
 
-#### String "SSAFY"를 이용하여 char 배열 ssafyArray를 만들고, 출력하는 코드를 작성하라
+#### String "MINKI"를 이용하여 char 배열 minkiArray를 만들고, 출력하는 코드를 작성하라
 
 ```java
-String ssafyStr = "SSAFY";
+String minkiStr = "MINKI";
 
-char[] ssafyArray = new char[ssafyStr.length()]; // length는 속성(attribute)이 아니고 메소이기 때문에 ()가 붙는다. 함수에 해당하기 때문에 호출해야 함
+char[] minkiArray = new char[minkiStr.length()]; // length는 속성(attribute)이 아니고 메소이기 때문에 ()가 붙는다. 함수에 해당하기 때문에 호출해야 함
 
-for (int i = 0; i < ssafyArray.length; i++) {
-    ssafyArray[i] = ssafyStr.charAt(i); // 문자열에서 한 글자씩 index 옮겨가며 가져오는 String class의 메소드 -> charAt
+for (int i = 0; i < minkiArray.length; i++) {
+    minkiArray[i] = minkiStr.charAt(i); // 문자열에서 한 글자씩 index 옮겨가며 가져오는 String class의 메소드 -> charAt
 }
 
-for (int i = 0; i < ssafyArray.length; i++) {
-    System.out.print(ssafyArray[i]);
+for (int i = 0; i < minkiArray.length; i++) {
+    System.out.print(minkiArray[i]);
 }
 
 
 ```
 
-char[] ssafyArray = new char[ssafyStr.length()];
+char[] minkiArray = new char[minkiStr.length()];
 
 
 
@@ -163,10 +163,10 @@ char[] ssafyArray = new char[ssafyStr.length()];
 사용예시
 
 ```java
-String ssafyStr = "SSAFY";
+String minkiStr = "MINKI";
 
-for (int i = 0; i < ssafyArray.length; i++) {
-    ssafyArray[i] = ssafyStr.charAt(i);
+for (int i = 0; i < minkiArray.length; i++) {
+    minkiArray[i] = minkiStr.charAt(i);
 }
 ```
 
